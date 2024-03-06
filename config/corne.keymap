@@ -15,16 +15,16 @@
 
         default_layer {
             // -----------------------------------------------------------------------------------------
-            // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
+            // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Z  |  U   |  I  |  O  |  P  | BKSP |
             // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
             // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             display-name = "Base";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp LCTRL  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
+&kp TAB    &kp CH_Q  &kp CH_W  &kp CH_E  &kp CH_R  &kp CH_T        &kp CH_Z  &kp CH_U  &kp CH_I     &kp CH_O    &kp CH_P     &kp BSPC
+&kp LCTRL  &kp CH_A  &kp CH_S  &kp CH_D  &kp CH_F  &kp CH_G        &kp CH_H  &kp CH_J  &kp CH_K     &kp CH_L    &kp SEMI     &kp SQT
+&kp LSHFT  &kp CH_Y  &kp CH_X  &kp CH_C  &kp CH_V  &kp CH_B        &kp CH_N  &kp CH_M  &kp CH_COMM  &kp CH_DOT  &kp CH_MINS  &kp ESC
                          &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT
             >;
         };
@@ -38,26 +38,26 @@
 
             display-name = "Lower";
             bindings = <
-&kp TAB     &kp N1          &kp N2        &kp N3        &kp N4        &kp N5          &kp N6             &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp C_VOLUME_UP    &trans    &kp UP    &trans     &trans  &trans
-&kp LSHFT   &bt BT_CLR_ALL  &trans        &trans        &kp ESCAPE    &tog 3          &kp C_VOLUME_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-                                          &kp LGUI      &trans        &kp SPACE       &kp RET            &trans    &kp RALT
+&kp TAB     &kp CH_1    &kp CH_2    &kp CH_3    &kp CH_4    &kp CH_5                  &kp CH_6           &kp CH_7   &kp CH_8   &kp CH_9   &kp CH_0  &kp BSPC
+&bt BT_CLR  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp C_VOLUME_UP    &trans     &kp UP     &trans     &trans   &trans
+&kp LSHFT   &bt BT_CLR_ALL  &trans        &trans        &kp ESCAPE    &tog 3          &kp C_VOLUME_DOWN  &kp LEFT   &kp DOWN   &kp RIGHT  &trans   &trans
+                                          &kp LGUI      &trans        &kp SPACE       &kp RET            &trans     &kp RALT
             >;
         };
 
         raise_layer {
             // -----------------------------------------------------------------------------------------
-            // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-            // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
+            // |  TAB |  +  |  "  |  *  |  %  |  &  |   |  /  |  (  |  )  |  =  |  ?  | BKSP |
+            // | CTRL |     |  @  |  #  |     |     |   |     |     |  [  |  ]  |  \  |  `   |
             // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             display-name = "Raise";
             bindings = <
-&kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
-                             &kp LGUI  &trans    &kp SPACE    &kp RET    &trans     &kp RALT
+&kp TAB    &kp CH_PLUS  &kp CH_DQUO  &kp CH_ASTR  &kp CH_PERC  &kp CH_AMPR       &kp CH_SLSH  &kp CH_LPRN  &kp CH_RPRN  &kp CH_EQL &kp CH_QUES  &kp BSPC
+&kp LCTRL  &trans       &kp CH_AT    &kp CH_HASH  &trans       &trans            &trans       &trans       &kp LBKT     &kp RBKT   &kp BSLH     &kp GRAVE
+&kp LSHFT  &trans       &trans       &trans       &trans       &trans            &kp UNDER    &kp PLUS     &kp LBRC     &kp RBRC   &kp PIPE     &kp TILDE
+                                     &kp LGUI     &trans       &kp SPACE         &kp RET      &trans       &kp RALT
             >;
         };
 
