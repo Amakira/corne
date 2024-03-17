@@ -22,9 +22,9 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB    &kp CH_Q  &kp CH_W  &kp CH_E  &kp CH_R  &kp CH_T        &kp CH_Z  &mt CH_ADIA CH_U  &kp CH_I     &mt CH_ODIA CH_O    &kp CH_P     &kp BSPC
-&kp LCTRL  &mt CH_ADIA CH_A  &kp CH_S  &kp CH_D  &kp CH_F  &kp CH_G        &kp CH_H  &kp CH_J  &kp CH_K     &kp CH_L    &kp CH_ODIA     &kp CH_DLR
-&kp LSHFT  &kp CH_Y  &kp CH_X  &kp CH_C  &kp CH_V  &kp CH_B        &kp CH_N  &kp CH_M  &kp CH_COMM  &kp CH_DOT  &kp CH_MINS  &kp ESC
+&kp TAB    &kp CH_Q          &kp CH_W  &kp CH_E  &kp CH_R  &kp CH_T        &kp CH_Z  &mt CH_ADIA CH_U  &kp CH_I     &mt CH_ODIA CH_O    &kp CH_P     &kp BSPC
+&kp LCTRL  &mt CH_ADIA CH_A  &kp CH_S  &kp CH_D  &kp CH_F  &kp CH_G        &kp CH_H  &kp CH_J          &kp CH_K     &kp CH_L            &kp CH_QUOT  &kp CH_DLR
+&kp LSHFT  &kp CH_Y          &kp CH_X  &kp CH_C  &kp CH_V  &kp CH_B        &kp CH_N  &kp CH_M          &kp CH_COMM  &kp CH_DOT          &kp CH_MINS  &kp ESC
                          &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT
             >;
         };
@@ -38,10 +38,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp TAB     &kp CH_1    &kp CH_2    &kp CH_3    &kp CH_4    &kp CH_5                  &kp CH_6           &kp CH_7   &kp CH_8   &kp CH_9   &kp CH_0  &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp C_VOLUME_UP    &trans     &kp UP     &trans     &trans   &trans
-&kp LSHFT   &trans  &trans        &trans        &kp ESCAPE    &tog 3                  &kp C_VOLUME_DOWN  &kp LEFT   &kp DOWN   &kp RIGHT  &trans   &trans
-                                          &kp LGUI      &trans        &kp SPACE       &kp RET            &trans     &kp RALT
+&kp TAB     &kp CH_1        &kp CH_2      &kp CH_3      &kp CH_4      &kp CH_5                &kp CH_6           &kp CH_7   &kp CH_8   &kp CH_9   &kp CH_0  &kp BSPC
+&bt BT_CLR  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4            &kp C_VOLUME_UP    &trans     &kp UP     &trans     &trans    &trans
+&kp LSHFT   &trans          &trans        &trans        &kp ESCAPE    &tog 3                  &kp C_VOLUME_DOWN  &kp LEFT   &kp DOWN   &kp RIGHT  &trans    &trans
+                                &kp LGUI      &trans        &kp SPACE                         &kp RET            &trans     &kp RALT
             >;
         };
 
@@ -66,7 +66,7 @@
 &kp ESC    &kp CH_Q  &kp CH_W  &kp CH_E  &kp CH_R  &kp CH_T        &kp CH_Z  &kp CH_U  &kp CH_I     &kp CH_O    &kp CH_P     &kp BSPC
 &kp TAB    &kp CH_A  &kp CH_S  &kp CH_D  &kp CH_F  &kp CH_G        &kp CH_H  &kp CH_J  &kp CH_K     &kp CH_L    &kp SEMI     &kp SQT
 &kp LSHFT  &kp CH_Y  &kp CH_X  &kp CH_C  &kp CH_V  &kp CH_B        &kp CH_N  &kp CH_M  &kp CH_COMM  &kp CH_DOT  &kp CH_MINS  &kp ESC
-                         &kp LCTRL  &lt lower_layer LALT  &kp SPACE    &kp ENTER  &tog default_layer  &kp RALT
+                         &kp LCTRL  &lt lower_layer LALT &kp SPACE    &kp ENTER  &tog default_layer  &kp RALT
             >;
         };
     };
