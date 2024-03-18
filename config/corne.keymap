@@ -26,10 +26,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB    &kp CH_Q          &kp CH_W  &kp CH_E  &kp CH_R  &kp CH_T        &kp CH_Z  &mt CH_UDIA CH_U  &kp CH_I     &mt CH_ODIA CH_O    &kp CH_P     &kp BSPC
-&kp LCTRL  &mt CH_ADIA CH_A  &kp CH_S  &kp CH_D  &kp CH_F  &kp CH_G        &kp CH_H  &kp CH_J          &kp CH_K     &kp CH_L            &kp CH_QUOT  &kp CH_DLR
-&kp LSHFT  &kp CH_Y          &kp CH_X  &kp CH_C  &kp CH_V  &kp CH_B        &kp CH_N  &kp CH_M          &kp CH_COMM  &kp CH_DOT          &kp CH_MINS  &kp ESC
-                         &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT
+&kp TAB    &kp CH_Q  &kp CH_W  &kp CH_E  &kp CH_R  &kp CH_T        &kp CH_Z  &kp CH_U  &kp CH_I             &kp CH_O           &kp CH_P             &kp BSPC
+&kp LCTRL  &kp CH_A  &kp CH_S  &kp CH_D  &kp CH_F  &kp CH_G        &kp CH_H  &kp CH_J  &kp CH_K             &kp CH_L           &kp CH_QUOT          &kp CH_DLR
+&kp LSHFT  &kp CH_Y  &kp CH_X  &kp CH_C  &kp CH_V  &kp CH_B        &kp CH_N  &kp CH_M  &mt CH_ADIA CH_COMM  &mt CH_ODIA CH_DOT &mt CH_UDIA CH_MINS  &kp ESC
+                                  &kp LGUI  &mo 1  &kp SPACE       &kp RET  &mo 2  &kp RALT
             >;
         };
 
